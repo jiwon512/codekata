@@ -12,6 +12,6 @@ def solution(n):
 
 def solution(n):
     return list(map(int, reversed(str(n))))      # list(iterable)        : 반복 가능한 데이터를 입력받아 리스트로 만들어 리턴
-                                                 # map(f, iterable)      :   
-                                                 # reversed() :
-                                                 # str()      :
+                                                 # map(f, iterable)      : 입력받은 데이터의 각 요소에 함수 f를 적용한 결과를 리턴
+                                                 # reversed()            : 문자열 뒤집기
+                                                 # str()                 : 문자열 형태로 객체 변환
